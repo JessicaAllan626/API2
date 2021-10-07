@@ -1,0 +1,74 @@
+*{
+    margin: 1;
+    padding: 0;
+}
+
+body{
+    background-image:url(./assets/moodBG.jpeg);
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    background-color: lightgrey;
+    opacity: 75%;
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    width: 300px;
+    border: 3px solid rgb(127, 127, 238);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navLogo {
+    display:flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.navLogo img {
+    width: 200px;
+    border-radius: 3px;
+    position:fixed;
+    right: auto;
+    top: auto;
+}
+
+p{
+    font-size: 16px;
+    font-family: monospace;
+    color: rgb(75, 75, 247);
+    position:relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+form{
+    position: relative;
+    text-align: center;
+    color:rgb(75, 75, 247);
+    font-size: 13px;
+    font-family: monospace;
+    padding-top: 10px;
+}
+
+.empty{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 50%;
+    background-color:lightgrey;
+    opacity: 70%;
+    z-index: -999;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    color: navy;
+}
