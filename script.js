@@ -2,7 +2,7 @@ let APIKEY='1oO56iSn72SX3mBjGb1DJl8F4yJGPkiv';
 
     document.addEventListener("DOMContentLoaded", init);
     function init() {
-        document.getElementsById("btn").addEventListener("click", ev => {
+        document.getElementById("btn").addEventListener("click", ev => {
         ev.preventDefault(); 
         let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=1&q=`;
         let str = document.getElementById("search").value.trim();
