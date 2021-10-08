@@ -1,6 +1,7 @@
 *{
-    margin: 1;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -71,4 +72,15 @@ h2{
     font-size: 18px;
     font-family: monospace;
     color: navy;
+}
+
+.gallery{
+    width: 90%;
+    margin: 12vh 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-auto-columns: repeat(2, 50px);
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: left;
 }
